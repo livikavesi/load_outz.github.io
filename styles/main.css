@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "titan";
+    src: url(/styles/fonts/TitanOne-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --color-black: black;
+    --color-white: white;
+}
+#main-body {
+    padding: 20px;
+}
+/* hero */
+/* hero */
+/* hero */
+#main-hero {
+    height: 60vh;
+    background-image: url(/images/loadoutz_hero.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+#main-box {
+    background-color: black;
+    padding: 10px 10vw;
+    color: var(--color-white);
+}
+#main-hero h1 {
+    font-size: 66px;
+    font-family: "titan";
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#main-box p {
+    font-family: "titan";
+    padding: 10px;
+    text-align: center;
+}
+.btn-cta {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 16px 35px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    position: relative;
+    top: 35px;
+}
